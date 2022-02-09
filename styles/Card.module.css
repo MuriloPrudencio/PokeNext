@@ -46,3 +46,39 @@
   color: #fff;
   box-shadow: 2px 2px 0 #fff;
 }
+
+
+@media only screen and (max-width: 1200px) {
+  .card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    width: 25vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    width: 30vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    margin: 0 auto;
+    margin-bottom: 1em;
+    width: 30vw;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 0 auto;
+    margin-bottom: 1em;
+    width: 60vw;
+  }
+}
+

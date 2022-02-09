@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image';
 import Card from '../components/Card/Card';
@@ -35,11 +34,11 @@ export default function Home({pokemons}) {
         <h1>Poke <span>Next</span> </h1>
         <Image src="/img/pokeball.png" width="60" height="60" alt="Logo Poke Next"/>
       </div>
-      <div className={styles.poke_container}>
+      <main className={styles.poke_container}>
         {pokemons.map((pokemon) =>(
           <Card key={pokemon.id} pokemon={pokemon}/>
         ))}
-      </div>
+      </main>
     </>
   )
 }
